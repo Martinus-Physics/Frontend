@@ -2,10 +2,10 @@ import { HiOutlineDotsVertical } from 'react-icons/hi';
 
 export default function Header() {
   return (
-    <header className="w-full rounded-[2rem] bg-white px-5 py-4 shadow-sm ring-1 ring-slate-200">
-      <div className="flex items-center justify-between gap-4">
+    <header className="w-full h-[60px] bg-white px-5 py-4 shadow-sm ring-1 ring-slate-200 justify-center flex">
+      <div className="w-full flex items-center justify-around gap-4">
         <div className="flex items-center gap-4">
-          <div className="h-14 w-14 rounded-full bg-slate-200 overflow-hidden">
+          <div className="h-10 w-10 rounded-full bg-slate-200 overflow-hidden">
             <img
               src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=200&q=80"
               alt="User avatar"
@@ -18,7 +18,7 @@ export default function Header() {
           </div>
         </div>
 
-        <button className="inline-flex h-12 w-12 items-center justify-center rounded-3xl border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:bg-slate-50">
+        <button className="inline-flex h-10 w-10 items-center justify-center rounded-3xl border border-slate-200 bg-white text-slate-700 shadow-sm transition hover:bg-slate-50">
           <HiOutlineDotsVertical className="h-5 w-5" />
         </button>
       </div>
